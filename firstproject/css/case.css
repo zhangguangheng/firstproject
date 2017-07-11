@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.c:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.nav{
+    background: white;
+    z-index: 9999;
+    padding-bottom: 30px;
+}
+.navF{
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.navF-left{
+    width: 480px;
+    float: left;
+}
+.navF span{
+    color: rgb(241, 58, 58);
+    font-size: 32px;
+    float: left;
+    padding-right: 15px;
+    font-weight: bold;
+}
+.navF p{
+    color: rgb(204, 204, 204);
+    font-size: 32px;
+    float: left;
+    font-weight: bold;
+}
+.navF a li{
+    float: left;
+    font-size: 16px;
+    padding: 10px 15px 10px 15px;
+    margin: 0 10px;
+    cursor: pointer;
+    color: #000;
+}
+.navF ul a:nth-child(2) li{
+    color: #f13a3a;
+    border-bottom: 2px solid #f13a3a;
+    padding: 10px 15px 10px 15px;
+}
+.navF ul a:nth-child(1) li{
+    padding: 10px 31px 10px 31px;
+}
+.navF a li:hover{
+    border-bottom: 2px solid #f13a3a;
+}
+.head img{
+    width: 1349px;
+    height: 300px;
+}
+.moduleF{
+    margin-top: 80px;
+}
+.moduleF-F{
+    width: 1100px;
+    margin: 0 auto;
+}
+.moduleF-F-head{
+    text-align: center;
+}
+.moduleF-F-head p{
+    font-size: 36px;
+    font-weight: bold;
+}
+.moduleF-F-middle{
+    margin-top: 60px;
+    text-align: center;
+}
+.moduleF-F-middle button{
+    width: 116px;
+    height: 38px;
+    background: white;
+    border:1px solid gray;
+    border-radius: 30px;
+    outline: none;
+    font-size: 16px;
+    margin: 0 10px;
+    transition:all 0.4s;
+}
+.moduleF-F-middle button:nth-child(1){
+    background: #ff6637;
+    color: white;
+    border:none;
+}
+.moduleF-F-middle button:hover{
+    background: #ff6637;
+    color: white;
+    border:none;
+}
+.moduleF-F-footer{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.moduleF-F-footer-F{
+    float: left;
+    margin-right: 80px;
+}
+.moduleF-F-footer-F:nth-child(3){
+    margin-right: 0;
+}
+.moduleF-F-footer-F{
+    width: 280px; 
+}
+.moduleF-F-footer-F img{
+    padding: 5px 0;
+    cursor: pointer;
+}
+.lala{
+    display: none;
+}
+.fixedshow{
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    /*display: none;*/
+}
+.fixedshow button{
+    border:none;
+    outline: none;
+    float: right;
+    margin-right: 60px;
+    margin-top: 60px;
+    background: #000;
+    cursor: pointer;
+}
+.fixedshow input:nth-child(2){
+    background: url(../images/btn_next_prev.png) 0 0 no-repeat;
+    width: 60px;
+    height: 80px;
+    position: absolute;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    top: 280px;
+    left: 55px;
+}
+.fixedshow input:nth-child(3){
+    background: url(../images/btn_next_prev.png) 0 -81px no-repeat;
+    width: 60px;
+    height: 80px;
+    position: absolute;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    top: 280px;
+    right: 55px;
+}
+.slideshow{
+    width: 700px;
+    height: 300px;
+    overflow: hidden;
+    position: absolute;
+    left: 24%;
+    top: 170px;
+}
+.slideshowF{
+    width: 5600px;
+    position: relative;
+}
+.slideshowF ul{
+    position: absolute;
+    /*width: 5600px;*/
+}
+.slideshow img{
+    width: 700px;
+    height: 300px;
+    float: left;
+}
+.footer{
+    background: #1b252e;
+    margin-top: 50px;
+}
+.footer-F{
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.footer-F-F{
+    width: 25%;
+    text-align: center;
+    float: left;
+    position: relative;
+    padding-bottom: 50px;
+}
+.footer-F-F img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.footer-F-F p{
+    color: rgb(139, 147, 157);
+    font-size: 14px;
+    padding-top: 2px;
+}
+.line{
+    width: 1200px;
+    border-bottom: 1px solid rgb(49, 58, 67);
+}
+.footer-F-S{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 500px;
+    margin: 0 auto;
+}
+.footer-F-S li{
+    float: left;
+    padding: 0 20px;
+    color: #8b939d;
+}
+.footer-F-S li:hover{
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.c:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.nav{
+    background: white;
+    z-index: 9999;
+    padding-bottom: 30px;
+}
+.navF{
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.navF-left{
+    width: 480px;
+    float: left;
+}
+.navF span{
+    color: rgb(241, 58, 58);
+    font-size: 32px;
+    float: left;
+    padding-right: 15px;
+    font-weight: bold;
+}
+.navF p{
+    color: rgb(204, 204, 204);
+    font-size: 32px;
+    float: left;
+    font-weight: bold;
+}
+.navF a li{
+    float: left;
+    font-size: 16px;
+    padding: 10px 15px 10px 15px;
+    margin: 0 10px;
+    cursor: pointer;
+    color: #000;
+}
+.navF ul a:nth-child(1) li{
+    padding: 10px 31px 10px 31px;
+}
+.navF ul a:nth-child(4) li{
+    color: #f13a3a;
+    border-bottom: 2px solid #f13a3a;
+    padding: 10px 15px 10px 15px;
+}
+.navF a li:hover{
+    border-bottom: 2px solid #f13a3a;
+}
+.head img{
+    width: 1349px;
+    height: 300px;
+}
+.moduleF{
+    margin-top: 80px;
+}
+.moduleF-F{
+    width: 1100px;
+    margin: 0 auto;
+}
+.moduleF-F-head{
+    font-size: 35px;
+    text-align: center;
+}
+.moduleF-F-middle{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    line-height: 30px;
+}
+.moduleS{
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+.moduleS-F{
+    width: 1200px;
+    margin: 0 auto;
+}
+.moduleS-left{
+    float: left;
+    width: 760px;
+    height: 510px;
+    position: relative;
+    overflow: hidden;
+}
+.moduleS-left img{
+    width: 760px;
+    position: absolute;
+    right: 760px;
+}
+.moduleS-right{
+    width: 440px;
+    height: 506px;
+    float: left;
+}
+.moduleS-right-F{
+    width: 440px;
+    height: 506px;
+    background: #F13A3A;
+    text-align: center;
+}
+.moduleS-right p{
+    font-size: 25px;
+    color: white;
+    padding-top: 210px;
+}
+.moduleS-right span{
+    color: white;
+    font-size: 16px;
+    line-height: 45px;
+}
+.moduleE{
+    background: #ebebeb;
+}
+.moduleE-F{
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+.moduleE-F-F{
+    width: 270px;
+    height: 466px;
+    background: white;
+    float: left;
+    text-align: center;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.moduleE-F-F:hover .moduleE-F-S{
+    display: block;
+}
+.moduleE-F-F:nth-child(4){
+    margin-right: 0;
+}
+.moduleE-F-F p{
+    font-size: 16px;
+    line-height: 2em;
+    padding-top: 25px;
+}
+.moduleE-F-F span{
+    font-size: 16px;
+}
+.moduleE-F-F small{
+    color: gray;
+    font-size: 12px;
+    line-height: 3em;
+    display: block;
+}
+.moduleE-F-S{
+    width: 270px;
+    height: 466px;
+    background: skyblue;
+    text-align: center;
+    margin-right: 6px;
+    color: green;
+    position: absolute;
+    display: none;
+    top: 100px;
+}
+.moduleE-F-S p{
+    font-size: 16px;
+    line-height: 2em;
+    padding-top: 25px;
+}
+.moduleE-F-S span{
+    font-size: 16px;
+}
+.moduleE-F-S small{
+    color: green;
+    font-size: 12px;
+    line-height: 3em;
+    display: block;
+}
+.footer{
+    background: #1b252e;
+}
+.footer-F{
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.footer-F-F{
+    width: 25%;
+    text-align: center;
+    float: left;
+    position: relative;
+    padding-bottom: 50px;
+}
+.footer-F-F img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.footer-F-F p{
+    color: rgb(139, 147, 157);
+    font-size: 14px;
+    padding-top: 2px;
+}
+.line{
+    width: 1200px;
+    border-bottom: 1px solid rgb(49, 58, 67);
+}
+.footer-F-S{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 500px;
+    margin: 0 auto;
+}
+.footer-F-S li{
+    float: left;
+    padding: 0 20px;
+    color: #8b939d;
+}
+.footer-F-S li:hover{
+    color: white;
+    cursor: pointer;
+}
